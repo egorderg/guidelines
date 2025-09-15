@@ -80,7 +80,6 @@ max_line_length = 90
 - [Extensions](extensions.md)
 - [Performance](performance.md)
 - [Error Handling](error-handling.md)
-- [Project Structure & Architecture](structure.md)
 
 ### Types
 
@@ -93,6 +92,11 @@ max_line_length = 90
 
 - [Unit Tests](testing/unit-testing.md)
 - [Integration Tests](testing/integration-testing.md)
+
+### Architectures
+
+- [Gateway & Adapter](architectures/gateway-adapter.md)
+- [Vertical Slice](architectures/vertical-slice.md)
 
 ### External
 
