@@ -94,6 +94,10 @@ YourApp/
 	 │  │	 ├─ IInputSystem.cs
 	 │  │	 └─ IFileSystem.cs
    │  ├─ Exceptions/                        # General domain exceptions
+   │  ├─ Operations/                        # UseCase/Operation pattern for gateways
+   │  │	 └─ Project/
+	 │  │	 		├─ CreateProjectOperation.cs
+	 │  │	 		└─ FindProjectOperation.cs
 	 │  ├─ UserInterface/
 	 │  │	 └─ IUserInterface.cs								# Gateway
 	 │  ├─ Rendering/
