@@ -38,11 +38,12 @@ The business domain stays isolated — making it reusable, testable, and indepen
 - Declares **adapter contracts** required to perform these operations but does not implement them.
 - **Agnostic to frameworks** — no direct dependency on ASP.NET Core, EF, MediatR, etc.
 - **Extendable with artifacts** — Application can be split into feature-specific modules (e.g. `YourApp.Todo`, `YourApp.Admin`) with its own gateways.
-- **Implementation styles**, such as:
-  - **CQRS** (commands/queries)
-  - **Workflow pattern** (multi-step business flows)
-  - **Service pattern** (application services calling domain logic)
-  - **Custom orchestrations**, provided each class follows **SRP**
+- **Design Patterns**, such as:
+  - [**Use Cases/Operations**](../patterns/use-case.md)
+  - [**Strategy**](../patterns/strategy.md)
+  - [**Workflow**](../patterns/workflow.md)
+  - **Services** (application services calling domain logic)
+  - **Custom**
 
 #### Examples
 
